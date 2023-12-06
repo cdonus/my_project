@@ -4,7 +4,7 @@ import streamlit as st
 
 st.header('Vehiculos')
         
-car_data = pd.read_csv('/Users/user/my_project/vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 build_histogram = st.checkbox('Construir un histograma')
 build_grafico = st.checkbox('Construir Grafico Dispersion') # crear un botón
         
